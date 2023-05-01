@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+h1{
+    font-family: 'PT Sans Caption', ;
+    color: white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} 
+
+.app{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.reinicio-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1px;
+  font-size:20px;
+  
+}
+.reiniciar:hover {
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+}
+
+.contador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+ 
+}
+.puntos{
+  height: 500px;
+padding: 10px;
+}
+
+.ellos-container{
+  height: 1000px;
+  margin: 10px;
+  text-align: center; 
+  justify-content: center;
+  padding: 10;
+  
+ 
+}
+.divisor{
+  width: 3px;
+  background: white;
+  height: 1000px;
+}
+
+.nosotros-container{
+  height: 1000px;
+  margin: 10px;
+  text-align: center; 
+  justify-content: center;
+  padding: 0 0 0 10px;
+  gap: 3em;
+  
+}
+
+.buttons{
+margin: 10px;
+font-size: 2 ;
+margin: 5px;
+
+}
+
+
+.pantalla-ganar {
+  position: absolute;
+  font-size: 3em;
+  background: bisque;
+  color: black;
+  font-weight: 900;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5em;
+  height: 400px;
+  top: 50%;
+  text-align: center;
+  box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.507);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
